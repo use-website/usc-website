@@ -1,0 +1,43 @@
+{{ define "main" }}
+<section class="hero" aria-label="Welcome">
+  <div class="hero-overlay"></div>
+  <div class="hero-inner container">
+    <div class="hero-copy">
+      <h1>Universal Safety Consultants</h1>
+      <p class="lead">
+        Practical training, robust audits and trusted safety consultancy —
+        helping organisations stay compliant and protected.
+      </p>
+      <p class="hero-ctas">
+        <a class="btn-primary" href="{{ "/services/" | relURL }}">Our Services</a>
+        <a class="btn-outline" href="{{ "/contact/" | relURL }}">Request a quote</a>
+      </p>
+    </div>
+  </div>
+</section>
+
+<section class="services container">
+  <h2>Our core services</h2>
+  <div class="services-grid">
+    <article class="service">
+      <h3><a href="{{ "/services/training/" | relURL }}">Training</a></h3>
+      <p>Practical, accredited training tailored to your organisation.</p>
+    </article>
+
+    <article class="service">
+      <h3><a href="{{ "/services/audit/" | relURL }}">Audit</a></h3>
+      <p>Clear, structured audits that identify risk and drive compliance.</p>
+    </article>
+
+    <article class="service">
+      <h3><a href="{{ "/services/fire-safety/" | relURL }}">Fire Safety Consultancy</a></h3>
+      <p>Fire risk assessments, policy development and expert advice.</p>
+    </article>
+
+    <article class="service">
+      <h3><a href="{{ "/services/moving-handling/" | relURL }}">Moving &amp; Handling Consultancy</a></h3>
+      <p>Reducing injury risk through practical moving and handling solutions.</p>
+    </article>
+  </div>
+</section>
+{{ end }}
