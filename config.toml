@@ -1,0 +1,12 @@
+baseURL = "/"
+languageCode = "en-gb"
+title = "Universal Safety Consultants"
+
+# We are NOT using a Hugo theme folder
+theme = ""
+
+[params]
+  description = "Training, audit and safety consultancy services"
+
+[outputs]
+  home = ["HTML"]
