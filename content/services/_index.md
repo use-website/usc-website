@@ -42,8 +42,4 @@ Our moving and handling consultancy focuses on reducing the risk of injury throu
 Support is tailored to your organisation, activities and workforce, helping you manage risk effectively and responsibly.
 
 [Find out more about Moving & Handling Consultancy →](/services/moving-handling/)--
-title: "Services"
-description: "Our training, audit and consultancy services"
----
 
-We provide practical, professional safety services tailored to your organisation.
