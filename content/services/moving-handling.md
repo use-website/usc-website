@@ -1,6 +1,6 @@
 ---
-title: "Moving & Handling Consultancy"
-description: "Practical moving and handling advice to reduce risk and prevent injury"
+title: "Moving & Handling Consultancy Services | Universal Safety Consultants"
+description: "Moving and handling consultancy services helping organisations reduce risk of injury through practical assessment and proportionate advice."
 ---
 
 We provide moving and handling consultancy designed to reduce the risk of injury and support safe working practices.
