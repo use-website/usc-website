@@ -1,6 +1,6 @@
 ---
-title: "Services"
-description: "Fire safety and moving & handling training, audit and consultancy services"
+title: "Fire Safety & Moving and Handling Services | Training, Audit & Consultancy"
+description: "Fire safety and moving and handling training, audit and consultancy services supporting organisations with compliant, practical safety solutions."
 ---
 
 We provide specialist safety services focused exclusively on **fire safety** and **moving and handling**.
