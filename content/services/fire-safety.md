@@ -1,6 +1,6 @@
 ---
-title: "Fire Safety Consultancy"
-description: "Professional fire safety advice and fire risk assessment services"
+title: "Fire Safety Consultancy Services | Universal Safety Consultants"
+description: "Professional fire safety consultancy supporting organisations in managing fire risk and meeting current fire safety legislation."
 ---
 
 We provide expert fire safety consultancy to help organisations meet their legal duties and manage fire risk effectively.
