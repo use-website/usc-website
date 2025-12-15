@@ -1,6 +1,6 @@
 ---
-title: "Audit"
-description: "Clear, practical health and safety audits to support compliance"
+title: "Fire Safety & Moving and Handling Audits | Universal Safety Consultants"
+description: "Fire safety and moving and handling audits providing clear, proportionate assessments to support compliance and risk management."
 ---
 
 Our audit services provide a structured and objective assessment of your current health and safety arrangements.
