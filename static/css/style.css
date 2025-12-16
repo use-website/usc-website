@@ -26,12 +26,13 @@ body {
 }
 
 /* Header */
-.site-header {
-  background: #fff;
-  border-bottom: 1px solid #e5e7eb;
-  position: sticky;
-  top: 0;
-  z-index: 100;
+.site-logo img {
+  max-height: 64px;
+  width: auto;
+}@media (max-width: 768px) {
+  .site-logo img {
+    max-height: 52px;
+  }
 }
 
 .header-inner {
