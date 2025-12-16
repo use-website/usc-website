@@ -27,7 +27,7 @@ body {
 
 /* Header */
 .site-logo img {
-  max-height: 80px;
+  max-height: 110px;
   width: auto;
 }@media (max-width: 768px) {
   .site-logo img {
@@ -35,10 +35,14 @@ body {
   }
 }
 
-.header-inner {
+header {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+}
+
+.header-inner {
+  padding: 20px 0;
+}
 }
 
 .logo {
