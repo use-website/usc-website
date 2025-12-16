@@ -1,0 +1,11 @@
+# Core service redirects
+/training            /services/training/           301
+/audit               /services/audit/              301
+/fire-safety         /services/fire-safety/        301
+/manual-handling     /services/moving-handling/    301
+
+# Common variations (just in case)
+/training/           /services/training/           301
+/audit/              /services/audit/              301
+/fire-safety/        /services/fire-safety/        301
+/manual-handling/    /services/moving-handling/    301
