@@ -30,22 +30,31 @@ body {
   max-height: 120px;
   width: auto;
 }
+.site-logo {
+  margin-right: 40px;
+}
 }@media (max-width: 768px) {
   .site-logo img {
     max-height: 80px;
+  }
+
+  .site-logo {
+    margin-right: 16px;
   }
 }
 
 header {
   display: flex;
-  flex-direction: column;
   align-items: center;
+  justify-content: space-between;
 }
 .site-logo {
   margin-bottom: 12px;
 }
-.header-inner {
-  padding: 20px 0;
+..header-inner {
+  display: flex;
+  align-items: center;
+  padding: 24px 0;
 }
 }
 
