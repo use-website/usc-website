@@ -83,7 +83,44 @@ header {
   color: var(--dark);
 }
 /* =====================
-   Mobile header
+   Navigation
+   ===================== */
+
+.main-nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+  margin: 0;
+  padding: 0;
+}
+
+.main-nav li {
+  margin: 0;
+}
+
+.main-nav a {
+  text-decoration: none;
+  font-weight: 600;
+  color: var(--dark);
+}
+
+/* =====================
+   Header contact (phone)
+   ===================== */
+
+.header-contact a {
+  font-weight: 600;
+  color: var(--dark);
+  text-decoration: none;
+  margin-left: 1.5rem;
+}
+
+.header-contact a:hover {
+  text-decoration: underline;
+}
+
+/* =====================
+   Mobile header & nav
    ===================== */
 
 @media (max-width: 768px) {
@@ -93,46 +130,20 @@ header {
     padding: 16px 1rem;
   }
 
-  .site-logo {
-    margin-bottom: 12px;
-  }
-
   .site-logo img {
     max-height: 80px;
   }
 
   .main-nav ul {
-    justify-content: center;
-    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 0.4rem; /* tightened mobile spacing */
+    align-items: center;
+  }
+
+  .header-contact {
+    margin-top: 8px;
   }
 }
-}
-/* Navigation */
-.main-nav ul {
-  list-style: none;
-  display: flex;
-  gap: 1.25rem;
-  margin: 0;
-  padding: 0;
-}
-
-.main-nav li {
-  display: inline-block;
-}
-
-.main-nav a {
-  text-decoration: none;
-  font-weight: 600;
-  color: var(--dark);
-}
-
-.btn-cta {
-  background: var(--blue);
-  color: #fff !important;
-  padding: 0.5rem 1rem;
-  border-radius: 6px;
-}
-
 /* Hero */
 .hero {
   position: relative;
