@@ -65,7 +65,23 @@ header {
     margin-top: 8px;
   }
 }
+/* Navigation */
+.main-nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;   /* THIS is the spacing */
+  margin: 0;
+  padding: 0;
+}
 
+.main-nav li {
+  margin: 0;
+}
+
+.main-nav a {
+  text-decoration: none;
+  color: var(--dark);
+}
 /* =====================
    Mobile header
    ===================== */
