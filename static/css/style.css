@@ -95,9 +95,13 @@ header {
 .main-nav ul {
   list-style: none;
   display: flex;
-  gap: 1rem;
+  gap: 1.25rem;
   margin: 0;
   padding: 0;
+}
+
+.main-nav li {
+  display: inline-block;
 }
 
 .main-nav a {
@@ -214,9 +218,20 @@ header {
 }
 
 @media (max-width: 768px) {
-  .main-nav ul {
-    display: none;
+  .header-inner {
+    flex-direction: column;
+    align-items: center;
   }
+
+  .main-nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .header-contact {
+    margin-top: 8px;
+  }
+}
 
   #nav-toggle {
     display: inline-block;
